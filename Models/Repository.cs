@@ -6,10 +6,10 @@
 
         static Repository()
         {
-            _users.Add(new UserInfo() { Id=1 ,Name = "Ali", Email = "abcd@gmail.com", Phone = "12345", WillAttend = true });
-            _users.Add(new UserInfo() { Id = 2,Name = "Ahmet", Email = "bcd@gmail.com", Phone = "1234", WillAttend = true });
-            _users.Add(new UserInfo() { Id = 3, Name = "Ayse", Email = "acd@gmail.com", Phone = "1235", WillAttend = true });
-            _users.Add(new UserInfo() { Id =4, Name = "Kenan", Email = "abd@gmail.com", Phone = "1245", WillAttend = false });
+            _users.Add(new UserInfo() { Id = 1, Name = "User 1", Email = "user1@example.com", Phone = "5550000001", WillAttend = true });
+            _users.Add(new UserInfo() { Id = 2, Name = "User 2", Email = "user2@example.com", Phone = "5550000002", WillAttend = true });
+            _users.Add(new UserInfo() { Id = 3, Name = "User 3", Email = "user3@example.com", Phone = "5550000003", WillAttend = true });
+            _users.Add(new UserInfo() { Id = 4, Name = "User 4", Email = "user4@example.com", Phone = "5550000004", WillAttend = false });
 
 
         }
